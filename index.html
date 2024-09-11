@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carino cafe</title>
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <style>
+
+        main{
+            min-height: 100vh;
+            align-content: center;
+        }
+
+        .welcome-box{
+            background: var(--sabz);
+            width: 80%;
+            min-width: 700px;
+            height: 500px;
+            display: flex;
+            margin: auto;
+            border-radius: 30px;
+        }
+
+        .logo{
+            width: 30%;
+            align-content: center;
+            font-size: 3rem;
+            padding-right:10px;
+            text-align: center;
+        }
+
+        .links-container{
+            background-color: var(--sabz2);
+            width: 70%;
+            height: 500px;
+            border-radius: 30px 0px 0px 30px;
+            padding-right: 20px;
+            align-content: center;
+        }
+
+        /* address */
+        .address{
+            border-bottom:2px solid #8d8d8d ;
+        }
+        .address h2{
+            font-size: 4em;
+            letter-spacing: 4px;
+            margin-bottom: 0px;
+        }
+        .address a{
+            display: inline-block;
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 3em;
+        }
+        /* address end */
+
+        /* menu */
+        .menu{
+            border-bottom: 2px solid #8d8d8d;
+            margin-top: 20px;
+        }
+        .menu a{
+            display: inline-block;
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 3em;
+        }
+        /* menu end */
+
+        /* contact */
+        .contact{
+            padding-top: 20px;
+            font-size: 2em;
+        }
+
+        #phone-number{
+            unicode-bidi: isolate;
+            margin-right: 10px;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <main>
+        <div class="welcome-box">
+            <div class="logo">کافه کارینو</div>
+
+            <div class="links-container">
+
+                <div class="address">
+                    <h2>آدرس ما</h2>
+                    <a
+                        href="https://www.google.com/maps/place/carino+coffee/@35.8518493,50.956292,21z/data=!4m9!1m2!7m1!2e1!3m5!1s0x3f8dbf5f48a6fbdb:0xcfbfab8d815e2838!8m2!3d35.8518328!4d50.9561737!16s%2Fg%2F11sv74t5gx?entry=ttu">
+                        <i class='bx bxs-map ' ></i>
+                        شاهین ویلا، آخر کوچه ششم شرقی، کافه کارینو
+                    </a>
+                </div>
+
+                <div class="menu">
+                    <a href="home asli.html"> <i class='bx bxs-store' ></i>
+                        منو محصولات</a>
+                </div>
+
+                <div class="contact">
+                    <b>شماره تماس:</b><span id="phone-number">09123456789</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- link to JS -->
+        <script src="main.js"></script>
+    </main>
+</body>
+
+</html>
