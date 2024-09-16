@@ -209,7 +209,7 @@ left: 0;
 
 .shop-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(420px,auto));
+    grid-template-columns: repeat(auto-fit, minmax(220px,auto));
     gap: 1.5rem;
 
 }
